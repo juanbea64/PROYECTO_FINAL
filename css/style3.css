@@ -235,7 +235,11 @@ figure{
     align-self: center;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.842); 
 }
+.enlace{
+    text-decoration: none;
+    color: black;
 
+}
 .cart-empty{
     padding: 20px;
     text-align: center;
