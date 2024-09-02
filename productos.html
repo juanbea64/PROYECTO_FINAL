@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Marvel</title>
+		<link rel="stylesheet" href="css/style3.css" />
+	</head>
+	<body>
+		<header>
+			<img class="logo" src="img/LogoMarvel.png" alt="logo">
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<img src="img/cart.png" alt="carrito de compras">
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Wolverine</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                    </div>
+					<p class="cart-empty">El carrito está vacio</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+            <div class="item guante">
+				<figure>
+					<img class="tamano_imagenes"
+						src="img/PngItem_1129132 1 (2).png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<a href="thanos_gantelete.html">
+                        <h2>Guante de Thanos</h2>
+                        <p class="price">$20</p>
+                    </a>
+                    <button class="btn-add-cart">Add to Cart</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img class="tamano_imagenes"
+						src="img/wolverine.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Wolverine</h2>
+					<p class="price">$26</p>
+					<button class="btn-add-cart">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img class="tamano_imagenes"
+						src="img/spiderman.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>SpiderMan</h2>
+					<p class="price">$26</p>
+					<button class="btn-add-cart">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img class="tamano_imagenes"
+						src="img/deadpool.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Deadpool</h2>
+					<p class="price">$26</p>
+					<button class="btn-add-cart">Add to Cart</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img class="tamano_imagenes"
+						src="img/black_panter.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Black Panther</h2>
+					<p class="price">$26</p>
+					<button class="btn-add-cart">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+
+        <script src="script/index.js"></script>
+	</body>
+</html>
